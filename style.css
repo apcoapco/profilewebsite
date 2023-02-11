@@ -1,0 +1,191 @@
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width:100%;
+    background-color: hsl(185, 75%, 39%);
+    box-sizing: border-box;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh , left 50vw top 50vh;
+    
+      
+    
+}
+
+.card {
+    
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+
+.photo{
+    width: 96px;
+    height: 96px;
+    top: -60px;
+    left:  120px;
+    right: 120px;
+    background: url(image.png);
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    position: relative
+    ;
+    
+    
+}
+.photo img {
+    border-radius: 50%;
+    position: relative;
+    
+    
+}
+
+.cardsvg img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.profile-name {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2e3349;
+    line-height: 22px;
+    position: relative;
+    left: 108px;
+    right: 138px;
+    top: -35px;
+    
+}
+
+.age {
+    width: 400;
+    font-size: 18px;
+    line-height: 22.32px;
+    align-items: centre;
+    color:#2e3349;
+    position: relative;
+    left:120px;
+    top: -35px;
+    
+}
+
+.london {
+    width: 50px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: #6b7082;
+    position: relative;
+    top: -85px;
+    left: 0%;
+
+    
+}
+
+.line{
+  position: absolute;
+  height: 1px;
+  background: #E8E9EC;
+  width: 348px;
+  top: 295px;
+}
+
+.k1 {
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    line-height: 22.32px;
+    color:  #2E3349;
+    position: relative;
+    top: -30px;
+    left: 40px;
+    
+}
+
+.k2 {
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    line-height: 22.32px;
+    color:  #2E3349;
+    position: relative;
+    top: -30px;
+    
+}
+
+.k3 {
+    font-weight: 700;
+    font-size: 18px;
+    align-items: center;
+    line-height: 22.32px;
+    color:  #2E3349;
+    position: relative;
+    top: -30px;
+    right: 40px;
+}
+
+.followers {
+    font-size: 10px;
+    font-weight: 400;
+    color: #6B7082;
+    align-items: center;
+    line-height: 12.4px;
+    position: relative;
+    top: -30px;
+    left: 35px;
+}
+
+.likes {
+    font-size: 10px;
+    font-weight: 400;
+    color: #6B7082;
+    align-items: center;
+    line-height: 12.4px;
+    position:relative;
+    top: -30px;
+    right: 9px;
+    
+}
+
+.photos {
+    font-size: 10px;
+    font-weight: 400;
+    color: #6B7082;
+    align-items: center;
+    line-height: 12.4px;
+    position: relative;
+    top: -30px;
+    right: 35px;
+    
+}
+
+
+.ab{
+    display: flex;
+    justify-content: space-between  100px;
+    
+    padding-bottom: 28px;
+}
+
+.abc {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    
+    
+}
+
+.abcd {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    
+}
+
